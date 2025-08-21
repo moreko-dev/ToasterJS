@@ -22,25 +22,25 @@ There is no hard thing to do bro! Just use it in your project.(But read the USAG
 ## Usage
 ### Minify version:
 1- add this to html file:
-‍‍‍```
+‍‍‍```javascript
 <link rel="stylesheet" href="./path-to-lib/toaster.css">
 <script src="./path-to-lib/Toaster.js" defer></script>
 ```
 2- Use this code on your JS file(Create the object once and use the method everywhere):
-‍‍‍```
+‍‍‍```javascript
 const toast = new ToasterJS();
 toast.toast("I'm using ToasterJS!!!", ToasterJS.INFO);
 ```
 
 ### Minify modular version:
 1- add this to html file:
-‍‍‍```
+‍‍‍```javascript
 <link rel="stylesheet" href="./path-to-lib/toaster.css">
 <script type="module" src="./path-to-lib/Toaster.js" defer></script>
 <script type="module" src="./path-to-your-js" defer></script>
 ```
 2- Use this code on your JS file(Create the object once and use the method everywhere):
-‍‍‍```
+‍‍‍```javascript
 import { ToasterJS } from "./path-to-lib/Toaster.js";
 const toast = new ToasterJS();
 toast.toast("I'm using ToasterJS!!!", ToasterJS.INFO);
