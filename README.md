@@ -1,6 +1,8 @@
 # ToasterJS
 A solid, light-weight and simple Javascript library for toasting modern and beautiful notifications on your website!
 
+![Demo](./2025-08-21_17-45-59.gif)
+
 ## Features
 - Animational entry and exit
 - Supports different position of screen to toast
