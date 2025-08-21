@@ -16,6 +16,8 @@ A solid, light-weight and simple Javascript library for toasting modern and beau
 - Support manually close
 - Support light and dark theme colors
 
+![Demo](./Screenshot 2025-08-21 180049.png)
+
 ## Installation
 There is no hard thing to do bro! Just use it in your project.(But read the USAGE section before!).
 
