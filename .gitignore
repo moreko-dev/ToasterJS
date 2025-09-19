@@ -1,0 +1,7 @@
+# Next update files
+min/CustomToast.js
+src/CustomToast.js
+
+# Test files
+index.html
+test.js
