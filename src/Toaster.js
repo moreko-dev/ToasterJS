@@ -69,7 +69,7 @@ class ToasterJS {
         element.classList.add(animation, "hide");
         element.style.borderRadius = roundedValue;
 
-        this.#handleToasting(element, this.#animateToastPending.bind(this), 
+        return this.#handleToasting(element, this.#animateToastPending.bind(this), 
             element, { action: fns.action, onSuccess: fns.onSuccess, onError: fns.onError }
         );
     }
@@ -184,7 +184,7 @@ class ToasterJS {
         } else {
             this.#container.appendChild(element);
         }
-        animationFunction(...animationFunctionArgs);
+        return animationFunction(...animationFunctionArgs);
     }
 
     #showToastElement(element) {
