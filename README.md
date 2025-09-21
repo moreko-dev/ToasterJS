@@ -3,8 +3,6 @@
 A lightweight, customizable, and easy-to-use JavaScript library for showing toasts (notifications) on your web page.
 Supports animations, directions, positions, queue system, **pending toasts** (async tasks), and **action toasts** (interactive toasts).
 
-![ToasterJS](./pics/toasts.png)
-
 ---
 
 ## 🚀 Installation
